@@ -8,6 +8,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jessica Liang</title>
     <author>Jessica Liang</author>
+    <script>
+        var date = new Date();
+        var current_date = date.getFullYear()+"-"+(date.getMonth()+1)+"-"+ date.getDate();
+        document.getElementById("p1").innerHTML = current_date;
+    </script>
 </head>
 <body>
     
@@ -33,6 +38,7 @@
                 
             </div>
             
+            <p id="p1">hello</p>
             
         </div>
         
@@ -80,14 +86,25 @@
 
     </div>
 
+    Quick Questions!
+    <form>
+        <label>Name: </label>
+        <input type="text">
+        <br>
+        <label>What is your go-to boba order?</label>
+        <input type="text">
+        <br>
+        <label>What is your favorite sport?</label>
+        <input type="text">
+        <br>
+        <input type="submit">
+
+    </form>
+
     <div id="contact">
         <h2>Contact</h2>
         <h4>Please feel free to email me at jessicaliang26@gmail.com or reach out on  <a href="https://www.linkedin.com/in/jessicaliang2/" target="_blank"> Linkedin </a>  </h4>
-        
 
-       
-        
-        
 
     </div>
     
